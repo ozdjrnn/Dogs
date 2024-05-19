@@ -1,0 +1,49 @@
+nav{
+    width: 100vw;
+    height: 70px;
+    background-color:greenyellow;
+    display: flex;
+    border-radius: 5%;
+}
+.logo{
+    width: 50px;
+    border-radius: 20%;
+    margin-left: 30px;
+}
+.logo-div{
+    width: 50;
+}
+.nav-links{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+.nav-link{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+.promo{
+    height: 100vh;
+    background: url('dog.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+h1{
+    padding-top: 100px;
+    margin: 0px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+}
+.card img{
+    width: 100%;
+}
